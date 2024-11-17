@@ -1,0 +1,9 @@
+#wrapper{
+    display: flex;
+    margin: 100px;
+    padding: 0px;
+    background: #BDBDBD;
+}
+h1{
+    text-decoration: overline;
+}

@@ -1,0 +1,80 @@
+body{
+    font-style: italic;
+}
+#box{
+    background-color: rgb(25, 1, 1);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.box1{
+    background-color:cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+header {
+    background-color:azure;
+    text-align: center;
+    padding: 2px;
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    margin: 20px;
+    font-size: 50px;
+    color: black;
+}
+.post-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.post {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    max-width: 300px;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.post-title {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: #888;
+}
+.post-date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-description {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
